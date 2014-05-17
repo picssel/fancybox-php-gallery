@@ -4,4 +4,4 @@ Create a filtered image gallery by category by reading image files from folders 
 
 For further reference read the original tutorial [here](http://www.picssel.com/create-a-filtered-image-gallery-with-jquery-and-fancybox-part-2-create-image-thumbnails-with-php/).
 
-**Important** : This code  relies in the proper implementation of the [Fancybox &copy;](http://fancyapps.com/fancybox/) jQuery plugin.
+**Important** : This code  relies on the proper implementation of the [Fancybox &copy;](http://fancyapps.com/fancybox/) jQuery plugin.
