@@ -187,6 +187,7 @@ jQuery(function($){
           echo "<a data-rel=\"" . $dataRel . "\" href=\"javascript:;\" class=\"filter\">" . $dirName . "</a>"; 
       } // END if()
   } // END foreach()
+  unset($dir);
   ?>
 </div>
 <div class="galleryWrap cf">
@@ -207,10 +208,7 @@ for ( $row = 0; $row < $countedItems; $row++ ){
 ?>
 <br />
 </div>
-<p style="font-size: 11px; padding: 10px 0"><strong>Disclaimer</strong> : Images belong to their respective authors and are used for demo purposes only. Source <a href="http://openphoto.net/" target="_blank">http://openphoto.net/</a></p>
+<p style="font-size: 11px; padding: 10px 0"><strong>Disclaimer</strong> : Images belong to their respective authors and are used for demo purposes only.</p>
 </div><!--wrap-->
-<script>
-jQuery(function(e){var t,n,r,i=navigator.userAgent.match(/msie/i)?true:false;if(!document.referrer==""){if(document.referrer.indexOf(location.protocol+"//"+location.host)===0){n=true}}if(history.length==0&&i||history.length==1&&!i){t=false}else{t=true}if(t){if(n){r='<a class="button" href="'+document.referrer+'"> &larr; Go back to previous page </a>'}else{r='<a class="button" href="javascript:;" onclick="javascript: history.go(-1)"> &larr; Go back to previous page </a>'}e(r).appendTo("#wrap")}});
-</script>
 </body>
 </html>
